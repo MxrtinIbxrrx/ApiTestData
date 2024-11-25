@@ -1,0 +1,234 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "username": "Carlos",
+      "apellido": "Palacios",
+      "password": "carlospalacios123",
+      "email": "ca.pala@duocuc.cl",
+      "rut": "18651342",
+      "isactive": true,
+      "asignaturas": [
+        {
+          "id": "101",
+          "nombre": "Calidad de Software",
+          "foto": "assets/icon/calidad.jpg",
+          "profesor": {
+            "nombre": "Ana Martínez",
+            "email": "ana.martinez@duocuc.cl"
+          },
+          "asistencias": [
+            {
+              "fecha": "2024-10-23",
+              "estado": "presente",
+              "asignaturaNombre": "Calidad de Software"
+            }
+          ]
+        },
+        {
+          "id": "102",
+          "nombre": "Etica",
+          "foto": "assets/icon/etica.jpg",
+          "profesor": {
+            "nombre": "Juan López",
+            "email": "juan.lopez@duocuc.cl"
+          },
+          "asistencias": [
+            {
+              "fecha": "2024-10-22",
+              "estado": "ausente",
+              "asignaturaNombre": "Etica"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "username": "Juan",
+      "apellido": "Perez",
+      "password": "juan123",
+      "email": "ju.pe@duocuc.cl",
+      "rut": "19651344",
+      "isactive": true,
+      "asignaturas": [
+        {
+          "id": "103",
+          "nombre": "Lenguaje",
+          "profesor": {
+            "nombre": "Carlos Díaz",
+            "email": "carlos.diaz@duocuc.cl"
+          },
+          "foto": "assets/icon/lenguaje.jpg",
+          "asistencias": []
+        },
+        {
+          "id": "104",
+          "nombre": "Química",
+          "profesor": {
+            "nombre": "María Gómez",
+            "email": "maria.gomez@duocuc.cl"
+          },
+          "foto": "assets/icon/quimica.jpg",
+          "asistencias": [
+            {
+              "fecha": "2024-10-22",
+              "estado": "presente",
+              "asignaturaNombre": "Química"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f86b",
+      "username": "Prueba123",
+      "apellido": "Prueba1234",
+      "email": "prueba@duocuc.cl",
+      "password": "prueba123",
+      "rut": "32454324k",
+      "isactive": true
+    }
+  ],
+  "justificaciones": [
+    {
+      "id": "d520",
+      "profesorNombre": "Alex",
+      "profesorId": "2",
+      "fecha": "2024-11-14",
+      "asignatura": "Programacion de base de datos",
+      "descripcion": "Profe no pude asistir ya que tenia medico",
+      "usuarioId": "2",
+      "comentario": "ok perfecto atacable"
+    },
+    {
+      "id": "d560",
+      "profesorNombre": "Alex",
+      "profesorId": "2",
+      "fecha": "2024-10-23",
+      "asignatura": "Base de datos",
+      "descripcion": "Profe me quede dormido",
+      "usuarioId": "2",
+      "comentario": "ok perfecto atacable"
+    },
+    {
+      "id": "d525",
+      "profesorNombre": "Viviana",
+      "profesorId": "1",
+      "fecha": "2024-11-14",
+      "asignatura": "Programacion web",
+      "descripcion": "Profe no pude asistir ya que tenia medico",
+      "usuarioId": "2",
+      "comentario": "ok perfecto comprendible saludos"
+    },
+    {
+      "id": "d560",
+      "profesorNombre": "Viviana",
+      "profesorId": "1",
+      "fecha": "2024-10-23",
+      "asignatura": "Programacion de aplicaciones moviles",
+      "descripcion": "Profe me quede dormido",
+      "usuarioId": "2",
+      "comentario": "ok perfecto gracias por avisar"
+    }
+  ],
+  "profesor": [
+    {
+      "id": "43",
+      "username": "Vivita sol",
+      "apellido": "Poblete",
+      "password": "vivitasol",
+      "email": "v.pobletel@profesor.duoc.cl",
+      "profesorId": "1",
+      "rut": "123456789",
+      "isactive": true,
+      "asignaturas": []
+    },
+    {
+      "id": "d161",
+      "username": "Alex",
+      "apellido": "Aguilera",
+      "profesorId": "2",
+      "email": "alex.aguilera@duocuc.cl",
+      "password": "alexferguson123",
+      "rut": "12345678",
+      "isactive": true
+    }
+  ],
+  "qr": [
+    {
+      "id": "9bf1",
+      "asignatura": "Base de datos",
+      "profesor": "Alex Aguilera",
+      "email": "ca.pala@duocuc.cl",
+      "usuario": "Carlos",
+      "idUsuario": "1",
+      "profesorId": "2",
+      "rut": "18651342",
+      "fecha": "22/11/2024"
+    },
+    {
+      "id": "2671",
+      "asignatura": "Base de datos",
+      "profesor": "Alex Aguilera",
+      "email": "ca.pala@duocuc.cl",
+      "usuario": "Carlos",
+      "idUsuario": "1",
+      "profesorId": "2",
+      "rut": "18651342",
+      "fecha": "22/11/2024"
+    },
+    {
+      "id": "9871",
+      "asignatura": "Base de datos",
+      "profesor": "Alex Aguilera",
+      "email": "ca.pala@duocuc.cl",
+      "usuario": "Carlos",
+      "idUsuario": "1",
+      "profesorId": "2",
+      "rut": "18651342",
+      "fecha": "22/11/2024"
+    },
+    {
+      "id": "65b0",
+      "asignatura": "Aplicaciones moviles",
+      "profesor": "Juan López",
+      "email": "ca.pala@duocuc.cl",
+      "usuario": "Carlos",
+      "idUsuario": "1",
+      "profesorId": "1",
+      "rut": "18651342",
+      "fecha": "22/11/2024"
+    },
+    {
+      "id": "bfb8",
+      "asignatura": "Calidad de Software",
+      "profesor": "Ana Martínez",
+      "email": "ca.pala@duocuc.cl",
+      "usuario": "Carlos",
+      "idUsuario": "1",
+      "rut": "18651342",
+      "fecha": "22/11/2024"
+    },
+    {
+      "id": "9d97",
+      "asignatura": "Calidad de Software",
+      "profesor": "Ana Martínez",
+      "email": "ca.pala@duocuc.cl",
+      "usuario": "Carlos",
+      "idUsuario": "1",
+      "rut": "18651342",
+      "fecha": "22/11/2024"
+    },
+    {
+      "id": "c3aa",
+      "asignatura": "Calidad de Software",
+      "profesor": "Ana Martínez",
+      "email": "ca.pala@duocuc.cl",
+      "usuario": "Carlos",
+      "idUsuario": "1",
+      "rut": "18651342",
+      "fecha": "22/11/2024"
+    }
+  ]
+}
